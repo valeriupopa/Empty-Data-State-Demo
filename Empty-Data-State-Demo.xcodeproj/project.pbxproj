@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5AB6521E72A08F0034C505 /* EmptyUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5AB6501E72A08F0034C505 /* EmptyUICollectionViewCell.swift */; };
+		DE5AB6531E72A08F0034C505 /* EmptyUICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5AB6511E72A08F0034C505 /* EmptyUICollectionViewCell.xib */; };
 		DE5E31C01E714BEE00D651A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31BF1E714BEE00D651A5 /* AppDelegate.swift */; };
-		DE5E31C21E714BEE00D651A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31C11E714BEE00D651A5 /* ViewController.swift */; };
 		DE5E31C51E714BEE00D651A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5E31C31E714BEE00D651A5 /* Main.storyboard */; };
 		DE5E31C81E714BEE00D651A5 /* Empty_Data_State_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31C61E714BEE00D651A5 /* Empty_Data_State_Demo.xcdatamodeld */; };
 		DE5E31CA1E714BEE00D651A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5E31C91E714BEE00D651A5 /* Assets.xcassets */; };
 		DE5E31CD1E714BEE00D651A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5E31CB1E714BEE00D651A5 /* LaunchScreen.storyboard */; };
 		DE5E31D81E714BEF00D651A5 /* Empty_Data_State_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31D71E714BEF00D651A5 /* Empty_Data_State_DemoTests.swift */; };
 		DE5E31E31E714BEF00D651A5 /* Empty_Data_State_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31E21E714BEF00D651A5 /* Empty_Data_State_DemoUITests.swift */; };
+		DE5E31F11E714CB700D651A5 /* EmptyDataStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F01E714CB700D651A5 /* EmptyDataStateTableViewController.swift */; };
+		DE5E31F31E714CEA00D651A5 /* EmptyDataStateMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F21E714CEA00D651A5 /* EmptyDataStateMainViewController.swift */; };
+		DE5E31F51E7174EE00D651A5 /* EmptyDataStateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F41E7174EE00D651A5 /* EmptyDataStateCollectionViewController.swift */; };
+		DE5E31FB1E7177A600D651A5 /* CollectioEmptyStateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F71E7177A600D651A5 /* CollectioEmptyStateDataSource.swift */; };
+		DE5E31FC1E7177A600D651A5 /* CollectioEmptyStateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F81E7177A600D651A5 /* CollectioEmptyStateDelegate.swift */; };
+		DE5E31FD1E7177A600D651A5 /* CollectioEmptyStateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31F91E7177A600D651A5 /* CollectioEmptyStateHandler.swift */; };
+		DE5E31FE1E7177A600D651A5 /* CollectionTypeEmptyStatePresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31FA1E7177A600D651A5 /* CollectionTypeEmptyStatePresentable.swift */; };
+		DE5E32001E717A4600D651A5 /* NSObject+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E31FF1E717A4600D651A5 /* NSObject+Swizzle.swift */; };
+		DE5E32021E717AC100D651A5 /* EmptyDataStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5E32011E717AC100D651A5 /* EmptyDataStateView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE5AB6501E72A08F0034C505 /* EmptyUICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyUICollectionViewCell.swift; sourceTree = "<group>"; };
+		DE5AB6511E72A08F0034C505 /* EmptyUICollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyUICollectionViewCell.xib; sourceTree = "<group>"; };
 		DE5E31BC1E714BEE00D651A5 /* Empty-Data-State-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty-Data-State-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5E31BF1E714BEE00D651A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE5E31C11E714BEE00D651A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE5E31C41E714BEE00D651A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE5E31C71E714BEE00D651A5 /* Empty_Data_State_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Empty_Data_State_Demo.xcdatamodel; sourceTree = "<group>"; };
 		DE5E31C91E714BEE00D651A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		DE5E31DE1E714BEF00D651A5 /* Empty-Data-State-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Empty-Data-State-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5E31E21E714BEF00D651A5 /* Empty_Data_State_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_Data_State_DemoUITests.swift; sourceTree = "<group>"; };
 		DE5E31E41E714BEF00D651A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5E31F01E714CB700D651A5 /* EmptyDataStateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataStateTableViewController.swift; sourceTree = "<group>"; };
+		DE5E31F21E714CEA00D651A5 /* EmptyDataStateMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataStateMainViewController.swift; sourceTree = "<group>"; };
+		DE5E31F41E7174EE00D651A5 /* EmptyDataStateCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataStateCollectionViewController.swift; sourceTree = "<group>"; };
+		DE5E31F71E7177A600D651A5 /* CollectioEmptyStateDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectioEmptyStateDataSource.swift; sourceTree = "<group>"; };
+		DE5E31F81E7177A600D651A5 /* CollectioEmptyStateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectioEmptyStateDelegate.swift; sourceTree = "<group>"; };
+		DE5E31F91E7177A600D651A5 /* CollectioEmptyStateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectioEmptyStateHandler.swift; sourceTree = "<group>"; };
+		DE5E31FA1E7177A600D651A5 /* CollectionTypeEmptyStatePresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypeEmptyStatePresentable.swift; sourceTree = "<group>"; };
+		DE5E31FF1E717A4600D651A5 /* NSObject+Swizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Swizzle.swift"; sourceTree = "<group>"; };
+		DE5E32011E717AC100D651A5 /* EmptyDataStateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyDataStateView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE5AB64F1E72A0780034C505 /* EmptyUICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE5AB6501E72A08F0034C505 /* EmptyUICollectionViewCell.swift */,
+				DE5AB6511E72A08F0034C505 /* EmptyUICollectionViewCell.xib */,
+			);
+			path = EmptyUICollectionViewCell;
+			sourceTree = "<group>";
+		};
 		DE5E31B31E714BEE00D651A5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +128,18 @@
 		DE5E31BE1E714BEE00D651A5 /* Empty-Data-State-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				DE5AB64F1E72A0780034C505 /* EmptyUICollectionViewCell */,
+				DE5E31F61E71778900D651A5 /* EmptyDataStateHandler */,
 				DE5E31BF1E714BEE00D651A5 /* AppDelegate.swift */,
-				DE5E31C11E714BEE00D651A5 /* ViewController.swift */,
 				DE5E31C31E714BEE00D651A5 /* Main.storyboard */,
 				DE5E31C91E714BEE00D651A5 /* Assets.xcassets */,
 				DE5E31CB1E714BEE00D651A5 /* LaunchScreen.storyboard */,
 				DE5E31CE1E714BEE00D651A5 /* Info.plist */,
 				DE5E31C61E714BEE00D651A5 /* Empty_Data_State_Demo.xcdatamodeld */,
+				DE5E31F01E714CB700D651A5 /* EmptyDataStateTableViewController.swift */,
+				DE5E31F21E714CEA00D651A5 /* EmptyDataStateMainViewController.swift */,
+				DE5E31F41E7174EE00D651A5 /* EmptyDataStateCollectionViewController.swift */,
+				DE5E32011E717AC100D651A5 /* EmptyDataStateView.xib */,
 			);
 			path = "Empty-Data-State-Demo";
 			sourceTree = "<group>";
@@ -126,6 +160,18 @@
 				DE5E31E41E714BEF00D651A5 /* Info.plist */,
 			);
 			path = "Empty-Data-State-DemoUITests";
+			sourceTree = "<group>";
+		};
+		DE5E31F61E71778900D651A5 /* EmptyDataStateHandler */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E31FF1E717A4600D651A5 /* NSObject+Swizzle.swift */,
+				DE5E31F71E7177A600D651A5 /* CollectioEmptyStateDataSource.swift */,
+				DE5E31F81E7177A600D651A5 /* CollectioEmptyStateDelegate.swift */,
+				DE5E31F91E7177A600D651A5 /* CollectioEmptyStateHandler.swift */,
+				DE5E31FA1E7177A600D651A5 /* CollectionTypeEmptyStatePresentable.swift */,
+			);
+			path = EmptyDataStateHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5E32021E717AC100D651A5 /* EmptyDataStateView.xib in Resources */,
+				DE5AB6531E72A08F0034C505 /* EmptyUICollectionViewCell.xib in Resources */,
 				DE5E31CD1E714BEE00D651A5 /* LaunchScreen.storyboard in Resources */,
 				DE5E31CA1E714BEE00D651A5 /* Assets.xcassets in Resources */,
 				DE5E31C51E714BEE00D651A5 /* Main.storyboard in Resources */,
@@ -265,9 +313,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5E31FE1E7177A600D651A5 /* CollectionTypeEmptyStatePresentable.swift in Sources */,
 				DE5E31C81E714BEE00D651A5 /* Empty_Data_State_Demo.xcdatamodeld in Sources */,
-				DE5E31C21E714BEE00D651A5 /* ViewController.swift in Sources */,
+				DE5E32001E717A4600D651A5 /* NSObject+Swizzle.swift in Sources */,
 				DE5E31C01E714BEE00D651A5 /* AppDelegate.swift in Sources */,
+				DE5E31F11E714CB700D651A5 /* EmptyDataStateTableViewController.swift in Sources */,
+				DE5E31F31E714CEA00D651A5 /* EmptyDataStateMainViewController.swift in Sources */,
+				DE5E31F51E7174EE00D651A5 /* EmptyDataStateCollectionViewController.swift in Sources */,
+				DE5E31FC1E7177A600D651A5 /* CollectioEmptyStateDelegate.swift in Sources */,
+				DE5E31FD1E7177A600D651A5 /* CollectioEmptyStateHandler.swift in Sources */,
+				DE5AB6521E72A08F0034C505 /* EmptyUICollectionViewCell.swift in Sources */,
+				DE5E31FB1E7177A600D651A5 /* CollectioEmptyStateDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +574,7 @@
 				DE5E31E91E714BEF00D651A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5E31EA1E714BEF00D651A5 /* Build configuration list for PBXNativeTarget "Empty-Data-State-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +583,7 @@
 				DE5E31EC1E714BEF00D651A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5E31ED1E714BEF00D651A5 /* Build configuration list for PBXNativeTarget "Empty-Data-State-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +592,7 @@
 				DE5E31EF1E714BEF00D651A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
